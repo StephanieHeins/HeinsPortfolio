@@ -1,0 +1,19 @@
+.resumetitle {
+    color: rgb(134, 192, 189) !important;
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.resumecontent {
+    color: rgb(160, 180, 180) !important;
+}
+
+#downloadbtn {
+    background-color:rgb(134, 192, 189);
+    border-color: rgb(134, 192, 189);
+}
+
+#downloadbtn:hover {
+    background-color: rgb(160, 180, 180);
+    border-color: rgb(160, 180, 180);
+}

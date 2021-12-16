@@ -1,7 +1,8 @@
 import HeinsDevResume from '../images/HeinsDevResume.pdf';
 import { Container, Col, Row } from 'react-bootstrap';
+import '../styles/Resume.css';
 
-export default function Home() {
+export default function Resume() {
     return (
         <div>
             
@@ -11,38 +12,38 @@ export default function Home() {
                     <Col className="col-sm"></Col>
 
                     <Col className="col-8">
-                        <div>
+                        <div className="resumetitle my-3">
                             Summary
                         </div>
-                        <div>
-                            I started out in the technology field in 2016 selling computers at a Microsoft store. 
-                            Since then, I’ve continued my education through Cybersecurity and Digital Forensics while 
-                            working in IT support in business environments. Having recently taken an accelerated Full 
-                            Stack Web Development program through the University of Washington, I’ve been able to 
-                            combine my passion for art/design and background in computers — I hope to continue to expand 
-                            my knowledge and ideas through the field of web development. 
-                        </div>
-                        <div>
+                            <div className="resumecontent">
+                                I started out in the technology field in 2016 selling computers at a Microsoft store. 
+                                Since then, I’ve continued my education through Cybersecurity and Digital Forensics while 
+                                working in IT support in business environments. Having recently taken an accelerated Full 
+                                Stack Web Development program through the University of Washington, I’ve been able to 
+                                combine my passion for art/design and background in computers — I hope to continue to expand 
+                                my knowledge and ideas through the field of web development. 
+                            </div>
+                        <div className="resumetitle my-3">
                             Education
                         </div>
-                        <div>
-                            <div className="my-2">
-                            Full Stack Web Development 
-                            | University of Washington 2021
+                            <div className="resumecontent">
+                                <div className="my-2">
+                                Full Stack Web Development 
+                                | University of Washington 2021
+                                </div>
+                                <div className="my-2">
+                                Information Security 
+                                | Edmonds College 2020
+                                </div>
+                                <div className="my-2">
+                                Cybersecurity Forensic Analyst 
+                                | Cybersecurity Institute 2017
+                                </div>
                             </div>
-                            <div className="my-2">
-                            Information Security 
-                            | Edmonds College 2020
-                            </div>
-                            <div className="my-2">
-                            Cybersecurity Forensic Analyst 
-                            | Cybersecurity Institute 2017
-                            </div>
-                        </div>
-                        <div>
+                        <div className="resumetitle my-3">
                             Skills
                         </div>
-                        <Row>
+                        <Row className="resumecontent">
                             <Col className="col-sm">
                                 <div>MERN Stack</div>
                                 <div>MongoDB</div>
@@ -68,27 +69,27 @@ export default function Home() {
                                 <div>Heroku</div>
                             </Col>
                         </Row>
-                        <div>
+                        <div className="resumetitle my-3">
                             Projects
                         </div>
-                        <div>
-                            See Portfolio
-                        </div>
-                        <div>
+                            <div className="resumecontent">
+                                See Portfolio
+                            </div>
+                        <div className="resumetitle my-3">
                             Experience
                         </div>
-                        <div className="my-2">
-                        Digital Forensics Lab Manager
-                        | Edmonds College 2017-Present
-                        </div> 
-                        <div className="my-2">
-                        Technical Specialist 
-                        | Apple Nov 2019 - Jan 2021
-                        </div>  
-                        <div className="my-2">
-                        IT Support 
-                        | Blueprint Technologies Dec 2017 - July 2019
-                        </div>  
+                            <div className="resumecontent my-2">
+                            Digital Forensics Lab Manager
+                            | Edmonds College 2017-Present
+                            </div> 
+                            <div className="resumecontent my-2">
+                            Technical Specialist 
+                            | Apple Nov 2019 - Jan 2021
+                            </div>  
+                            <div className="resumecontent my-2">
+                            IT Support 
+                            | Blueprint Technologies Dec 2017 - July 2019
+                            </div>  
                     </Col>
 
                     <Col className="col-sm"></Col>
@@ -100,7 +101,8 @@ export default function Home() {
                 <Row className="justify-content-center">
                     <a
                         href={HeinsDevResume} 
-                        class="btn btn-dark text-info"
+                        className="btn my-4"
+                        id="downloadbtn"
                         style={{width:200}}
                         download
                         >Download PDF
