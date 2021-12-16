@@ -1,9 +1,9 @@
-#resume:hover, #contact:hover {
+#resume:hover, #contact:hover, #github:hover, #linkedin:hover {
     color:rgb(134, 192, 189);
 }
 
 #navbrand {
     color:rgb(134, 192, 189);
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 550;
+    font-size: 24px;
 }
