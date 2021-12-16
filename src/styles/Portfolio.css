@@ -1,5 +1,5 @@
 h4 {
-    color:rgb(134, 192, 189)
+    color:rgb(134, 192, 189);
 }
 
 #card1, #card2 {
@@ -8,4 +8,14 @@ h4 {
 
 .cardtitle {
     color:rgb(160, 180, 180);
+}
+
+#livelink1, #livelink2, #ghrepo1, #ghrepo2 {
+    background-color: rgb(134, 192, 189);
+    border-color: rgb(134, 192, 189);
+}
+
+#livelink1:hover, #livelink2:hover, #ghrepo1:hover, #ghrepo2:hover {
+    background-color: rgb(160, 180, 180);
+    border-color: rgb(160, 180, 180);
 }

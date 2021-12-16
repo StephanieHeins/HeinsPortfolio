@@ -27,10 +27,10 @@ export default function Portfolio() {
                             {fullstackprojects.about}
                         </Card.Text>
                         <Card.Img src={fullstackprojects.image}></Card.Img>
-                        <Button href={fullstackprojects.livelink} className="mx-2 mt-3">
+                        <Button href={fullstackprojects.livelink} className="mx-2 mt-3" id="livelink1">
                             Live Link
                         </Button>
-                        <Button href={fullstackprojects.repo} className="mx-2 mt-3">
+                        <Button href={fullstackprojects.repo} className="mx-2 mt-3" id="ghrepo1">
                             Github Repo
                         </Button>
                     </Card.Body>
@@ -52,10 +52,10 @@ export default function Portfolio() {
                         {otherprojects.about}
                     </Card.Text>
                     <Card.Img src={otherprojects.image}></Card.Img>
-                    <Button href={otherprojects.livelink}>
+                    <Button href={otherprojects.livelink} className="mx-2 mt-3" id="livelink2">
                         Live Link
                     </Button>
-                    <Button href={otherprojects.repo}>
+                    <Button href={otherprojects.repo} className="mx-2 mt-3" id="ghrepo2">
                         Github Repo
                     </Button>
                 </Card.Body>
