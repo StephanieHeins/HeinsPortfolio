@@ -1,10 +1,8 @@
-export default function FullStackProjects() {
-    const projects = [
+export const fullstackprojects = [
         {
             name: "fullstack1"
         },
         {
             name: "fullstack2"
         }
-    ]
-}
+    ];

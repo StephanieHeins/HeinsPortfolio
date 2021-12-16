@@ -10,7 +10,7 @@ export default function About() {
                 <Col>
                 <img 
                 className="img-responsive rounded center-block d-block mx-auto rounded-circle"
-                style={{width: 350}}
+                style={{width: 280}}
                 src={Headshot1}
                 alt="Headshot"
                 />
