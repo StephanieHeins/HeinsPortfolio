@@ -8,9 +8,14 @@
     color: rgb(160, 180, 180) !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 #downloadbtn {
     background-color:rgb(134, 192, 189);
     border-color: rgb(134, 192, 189);
+    color: rgb(20, 25, 31) !important;
 }
 
 #downloadbtn:hover {

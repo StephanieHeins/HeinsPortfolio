@@ -3,7 +3,7 @@ import '../styles/NavTabs.css';
 
 export default function Footer() {
     return (
-        <div>
+        <div id="footer">
               <Navbar bg="dark" variant="dark">
                 <Container className="justify-content-center">
                     <Nav>
