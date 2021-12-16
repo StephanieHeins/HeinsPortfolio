@@ -19,7 +19,10 @@ export default function About() {
                 <h3 className="mb-3">
                 About Me
                 </h3>
-                <p id="about">
+                <p id="about"> 
+                With Seattle being both one of the biggest art and tech capitols, it's no question
+                how I ended up in software development.
+                
                 Since starting out in the tech industry in 2016, I’ve pursued an education in 
                 Cybersecurity and Digital Forensics while working in IT support for business 
                 environments. Having recently graduated an accelerated Full Stack Web Development 
