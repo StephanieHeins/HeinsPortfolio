@@ -1,0 +1,9 @@
+#resume:hover, #contact:hover {
+    color:rgb(134, 192, 189);
+}
+
+#navbrand {
+    color:rgb(134, 192, 189);
+    font-weight: 700;
+    font-size: 25px;
+}
