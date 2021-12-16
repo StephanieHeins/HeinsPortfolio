@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/heins-portfolio/static/css/main.8672ec82.css",
-    "main.js": "/heins-portfolio/static/js/main.393d7fd5.js",
-    "static/js/787.a45f6a16.chunk.js": "/heins-portfolio/static/js/787.a45f6a16.chunk.js",
-    "static/media/WhereToMovie.png": "/heins-portfolio/static/media/WhereToMovie.b1eef881ec4733e1e33b.png",
-    "static/media/NoteSafe.png": "/heins-portfolio/static/media/NoteSafe.b5ecbcf1314834efdb29.png",
-    "static/media/DonutShop.png": "/heins-portfolio/static/media/DonutShop.77884eb30c12f2a86b76.png",
-    "static/media/Headshot1.jpg": "/heins-portfolio/static/media/Headshot1.a82527b249db952315c8.jpg",
-    "static/media/TechBlog.png": "/heins-portfolio/static/media/TechBlog.556e557b9f19e00918bf.png",
-    "static/media/CovidCC.png": "/heins-portfolio/static/media/CovidCC.c4c73b13b1c0b2d42fbf.png",
-    "static/media/HeinsDevResume.pdf": "/heins-portfolio/static/media/HeinsDevResume.6468889872d5a94c97e0.pdf",
-    "static/media/EmployeeTracker.png": "/heins-portfolio/static/media/EmployeeTracker.e970eef830ccbba6fc58.png",
-    "static/media/TeamProfile.png": "/heins-portfolio/static/media/TeamProfile.92dd3790c8643473fcc0.png",
-    "index.html": "/heins-portfolio/index.html",
-    "main.8672ec82.css.map": "/heins-portfolio/static/css/main.8672ec82.css.map",
-    "main.393d7fd5.js.map": "/heins-portfolio/static/js/main.393d7fd5.js.map",
-    "787.a45f6a16.chunk.js.map": "/heins-portfolio/static/js/787.a45f6a16.chunk.js.map"
+    "main.css": "/heinsportfolio/static/css/main.8672ec82.css",
+    "main.js": "/heinsportfolio/static/js/main.21e6bffc.js",
+    "static/js/787.a45f6a16.chunk.js": "/heinsportfolio/static/js/787.a45f6a16.chunk.js",
+    "static/media/WhereToMovie.png": "/heinsportfolio/static/media/WhereToMovie.b1eef881ec4733e1e33b.png",
+    "static/media/NoteSafe.png": "/heinsportfolio/static/media/NoteSafe.b5ecbcf1314834efdb29.png",
+    "static/media/DonutShop.png": "/heinsportfolio/static/media/DonutShop.77884eb30c12f2a86b76.png",
+    "static/media/Headshot1.jpg": "/heinsportfolio/static/media/Headshot1.a82527b249db952315c8.jpg",
+    "static/media/TechBlog.png": "/heinsportfolio/static/media/TechBlog.556e557b9f19e00918bf.png",
+    "static/media/CovidCC.png": "/heinsportfolio/static/media/CovidCC.c4c73b13b1c0b2d42fbf.png",
+    "static/media/HeinsDevResume.pdf": "/heinsportfolio/static/media/HeinsDevResume.6468889872d5a94c97e0.pdf",
+    "static/media/EmployeeTracker.png": "/heinsportfolio/static/media/EmployeeTracker.e970eef830ccbba6fc58.png",
+    "static/media/TeamProfile.png": "/heinsportfolio/static/media/TeamProfile.92dd3790c8643473fcc0.png",
+    "index.html": "/heinsportfolio/index.html",
+    "main.8672ec82.css.map": "/heinsportfolio/static/css/main.8672ec82.css.map",
+    "main.21e6bffc.js.map": "/heinsportfolio/static/js/main.21e6bffc.js.map",
+    "787.a45f6a16.chunk.js.map": "/heinsportfolio/static/js/787.a45f6a16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8672ec82.css",
-    "static/js/main.393d7fd5.js"
+    "static/js/main.21e6bffc.js"
   ]
 }
