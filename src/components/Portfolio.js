@@ -2,7 +2,7 @@ import About from './About'
 import '../styles/Portfolio.css'
 import { fullstackprojects } from './FullStackProjects';
 import { otherprojects } from './OtherProjects';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 export default function Portfolio() {
     return (
@@ -11,21 +11,28 @@ export default function Portfolio() {
         
         <Container>
 
-        <Row className="text-center align-items-center py-3">
+        <Row className="text-center py-3">
 
             <Col>
             <h4 className="py-2">
                 Full Stack
             </h4>
             {fullstackprojects.map(fullstackprojects => (
-                <Card>
+                <Card className="mt-2 mb-4" id="card1">
                     <Card.Body>
-                        <Card.Title>
+                        <Card.Title className="cardtitle">
                             {fullstackprojects.name}
                         </Card.Title>
                         <Card.Text>
-                            About
+                            {fullstackprojects.about}
                         </Card.Text>
+                        <Card.Img src={fullstackprojects.image}></Card.Img>
+                        <Button href={fullstackprojects.livelink} className="mx-2 mt-3">
+                            Live Link
+                        </Button>
+                        <Button href={fullstackprojects.repo} className="mx-2 mt-3">
+                            Github Repo
+                        </Button>
                     </Card.Body>
                 </Card>
             ))}
@@ -36,16 +43,23 @@ export default function Portfolio() {
                 Other Apps
             </h4>
             {otherprojects.map(otherprojects => (
-                <Card>
-                    <Card.Body>
-                        <Card.Title>
-                            {otherprojects.name}
-                        </Card.Title>
-                        <Card.Text>
-                            About
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                <Card className="mt-2 mb-4" id="card2">
+                <Card.Body>
+                    <Card.Title className="cardtitle">
+                        {otherprojects.name}
+                    </Card.Title>
+                    <Card.Text>
+                        {otherprojects.about}
+                    </Card.Text>
+                    <Card.Img src={otherprojects.image}></Card.Img>
+                    <Button href={otherprojects.livelink}>
+                        Live Link
+                    </Button>
+                    <Button href={otherprojects.repo}>
+                        Github Repo
+                    </Button>
+                </Card.Body>
+            </Card>
             ))}
             </Col>
 
