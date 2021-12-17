@@ -1,5 +1,3 @@
 # HeinsPortfolio
 
-##Livelink
-
-[Portfolio] (https://stephanieheins.github.io/HeinsPortfolio/)
+Livelink: https://stephanieheins.github.io/HeinsPortfolio/
